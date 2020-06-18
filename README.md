@@ -12,9 +12,22 @@
 
 ### 步骤
 1.使用"make"进行编译。
-2."make testload > tmp.txt"加载模块并打印日志。
-3."make testunload"卸载模块。
+```
+make
+```
+2.加载模块并打印日志。
+```
+make testload > tmp.txt"
+```
+3.卸载模块。
+```
+make testunload
+```
 4.如果重新编译模块，先执行"make clean"，再进行"make"。
+```
+make clean
+make
+```
 
 ### 参考
 * [对于结构体指针+、-常数的理解(page_to_pfn和pfn_to_page)](http://blog.chinaunix.net/uid-20564848-id-72855.html?utm_source=jiancool)
